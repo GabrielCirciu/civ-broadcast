@@ -1,0 +1,18 @@
+name: CivBroadcast
+version: ${version}
+main: Plugin
+api-version: 1.20
+author: Binkibonk
+description: ${description}
+website: https://github.com/GabrielCirciu/CivBroadcast
+
+permissions:
+  civbroadcast.admin:
+    description: Admin permissions for the plugin
+    default: op
+
+commands:
+  civbroadcast:
+    description: Send messages cross-server
+    usage: /civbroadcast <subcommand>
+    permission: civbroadcast.admin 
